@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* PRUEBA RÁPIDA: pinta el body de azul */
+body {
+  background-color: blue !important;
+}
