@@ -1,9 +1,11 @@
+/* File: productivity/src/index.css */
 /* postcss: true */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-/* PRUEBA RÁPIDA: pinta el body de azul */
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+
+/* Prueba rápida: pinta el body de azul */
 body {
   background-color: blue !important;
 }
